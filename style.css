@@ -1,0 +1,91 @@
+body {
+    background-color: #e5e5e5;
+  }
+  
+  .vector {
+    position: absolute;
+    left: 84px;
+    top: 40px;
+    bottom: 0%;
+  }
+  
+  main .input {
+    position: relative;
+    height: 48px;
+    width: 577px;
+    left: 240px;
+    top: 168px;
+    border-radius: nullpx;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0a3871;
+    border: none;
+    background-color: #e5e5e5;
+  }
+  
+  input:focus {
+    outline: 0;
+    outline: none;
+  }
+  
+  ::placeholder {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0a3871;
+  }
+ 
+  
+  .botonEncriptar {
+    display: block;
+    margin:auto;
+    margin-top: 200px;
+    margin-bottom: 0px;
+    color: #fff;
+    background-color: #0a3871;
+    height: 67px;
+    width: 328px;  
+    margin-bottom: 22px;   
+    border-radius: 24px;
+    padding: 24px;
+  }
+  
+  .botonDesencriptar {  
+    display: block;
+    margin:auto;   
+    color: #0a3871;
+    background-color: #d8dfe8;
+    height: 67px;
+    width: 328px; 
+    border-radius: 24px;
+    padding: 24px;
+  }
+  
+
+  @media (max-width: 992px) {
+    .botonDesencriptar, .botonEncriptar {
+      display:flex; 
+    }
+    .botonGroup {
+      margin:center;
+    }
+  }
+  
+
+  
+    
+  
+  
+  
+  
+   
+  
+  
+  

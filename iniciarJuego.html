@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <title>Juego de ahorcado</title>
+    <link rel="stylesheet" href="iniciarJuego.css" />
+  </head>
+  <body id="body">
+    <header>
+      <img src="imagenes/Vector.png" alt="" class="vector" />
+    </header>
+    <main>  
+      <section>
+       <div id="mensaje">  </div>
+      <div class="botonGroup">        
+       <!-- <canvas  width="700" height="200" style="background-color: red"></canvas> -->
+        <canvas width="700" height="700" > <div onkeydown="onKeyDown(event);" ></div> </canvas>     
+       <p > <img src="imagenes/Vector (1).png" />Maximo 8 letras</p>       
+       <a href="iniciarJuego.html"> <button class="botonEncriptar" id="botonEncriptar"> Nuevo juego </button> </a>
+       <a href="index.html">   <button class="botonDesencriptar" id="botonDesencriptar"> Desistir </button> </a>
+      </div>
+    </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+
+ 
+
+</html>
